@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/resetsheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mypage.css">
+    <title>My Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <section class="header__img__frame">
+                <nav class="menu">
+                    <i class="fa fa-bars"></i>
+                    <ul class="menu__list">
+                        <li class="menu__items">PLANERA</li>
+                        <li class="menu__items">HISTORIK</li>
+                        <li class="menu__items">TIPS</li>
+                        <li class="menu__items">LOGGA UT</li>
+                    </ul>
+                </nav>
+                <img class="header__heart" src="./assets/Logo.svg" alt="">
+                <h1 class="header__tittle">Mina sidor</h1>
+            </section>
+            <section class="input__group">
+                <h1 class="input__title">Lägg till ny plantering</h1>
+                <article class="input__frame">   
+                    <label for="plant" class="input__label">Planta:</label>
+                    <input type="text" name="plant" class="input__content"></input>
+                </article>        
+                <article class="input__frame">   
+                    <label for="date" class="input__label">Datum:</label>
+                    <input type="text" name="date" class="input__content"></input>
+                </article>
+                <button class="input__button">Lägg till</button>
+            </section>     
+        </header>
+        <main>
+            <article class="card__section">
+                <h2 class="card__title">Dina planerade planteringar</h2>
+                <section class="card__group">
+                    <article class="card__frame">        
+                        <figure class="card__img">
+                            <img class="plant__img" src="./img/homepage/cucumber.jpeg" alt="heart_logo">
+                            <img src="./assets/plant.svg" alt="plant_vector" class="plant__vector">
+                        </figure> 
+                        <section class="card__description">
+                            <h2 class="card__name">Gurka</h2>
+                            <p class="card__date">15 april 2024</p>
+                            <p class="card__type">Rico Coolio</p>
+                            <footer class="delete__button">
+                                <i class="fa fa-trash-o"></i>
+                                <button class="delete__button--word">TA BORT</button>
+                            </footer>
+                        </section>                   
+                    </article>
+                </section>
+            </article>
+            <article class="card__section">
+                    <h2 class="card__title">Dina planerade planteringar</h2>
+                    <section class="card__group">
+                        <article class="card__frame">        
+                            <figure class="card__img">
+                                <img class="plant__img" src="./img/homepage/cucumber.jpeg" alt="heart_logo">
+                                <img src="./assets/plant.svg" alt="plant_vector" class="plant__vector">
+                            </figure>
+                            <section class="card__description">
+                                <h2 class="card__name">Gurka</h2>
+                                <p class="card__date">15 april 2024</p>
+                                <p class="card__type">Rico Coolio</p>
+                                <footer class="delete__button">
+                                    <i class="fa fa-trash-o"></i> 
+                                    <button class="delete__button--word">TA BORT</button>
+                                </footer>
+                            </section> 
+                        </article>      
+                        <article class="card__frame">        
+                            <figure class="card__img">
+                                <img class="plant__img" src="./img/homepage/cucumber.jpeg" alt="heart_logo">
+                                <img src="./assets/plant.svg" alt="plant_vector" class="plant__vector">
+                            </figure>
+                            <section class="card__description">
+                                <h2 class="card__name">Gurka</h2>
+                                <p class="card__date">15 april 2024</p>
+                                <p class="card__type">Rico Coolio</p>
+                                <footer class="delete__button">
+                                    <i class="fa fa-trash-o"></i>
+                                    <button class="delete__button--word">TA BORT</button>
+                                </footer>
+                            </section>   
+                        </article>                                       
+                    </section>
+            </article>
+            <aside class="gallery">       
+                    <img src="./img/my-page/footer1.jpeg" alt="harvest" class="gallery__img harvest">
+                    <img src="./img/my-page/footer2.jpeg" alt="watering" class="gallery__img watering">
+                    <img src="./img/my-page/footer3.jpeg" alt="vegetable" class="gallery__img vegetable">
+                    <img src="./img/my-page/footer4.jpeg" alt="smile" class="gallery__img smile">               
+            </aside>
+        </main>
+        <footer><p>Till toppen av sidan</p></footer>
+    </div>    
+</body>
+</html>
